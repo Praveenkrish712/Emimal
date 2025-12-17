@@ -1,0 +1,38 @@
+*{
+    /* background-color: black; */
+}
+
+h1{
+    color: coral;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    text-decoration: line-through;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 10px;
+    line-height: 1;
+    letter-spacing: 1px;
+}
+
+h2{
+    color: red;
+}
+
+p{
+    color: darkblue;
+    background-color: gray;
+    background-image: url(./Assets/Superman.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.selector > h1,
+.selector > h2,
+.selector > h3{
+    color: violet;
+} 
+
+#lang > h1{
+    color: blue;
+}
